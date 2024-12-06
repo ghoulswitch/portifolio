@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(95deg, #A2BEDC, #B793C9, #754FA9);
+    background-image: linear-gradient(-87deg, #F3C9B1, #B793C9, #754FA9); /*ajeitar a direção do gradiente*/
+}
+
+/*img {
+
+}*/
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
