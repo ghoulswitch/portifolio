@@ -54,9 +54,9 @@ p.breve-bibliografia {
 
 nav#projetos {
     background-color: #ffffff54;
-    margin: 8px 0 0 480px;
     height: 568px;
     border-radius: 12px;
+    margin: 8px 25px 0 480px;
     position: absolute;
 }
 
@@ -66,5 +66,6 @@ h1.ultimos-projetos-titulo {
     font-weight: 500;
     font-size: 32px;
     font-style: medium;
-    margin: 40px 600px 5px 30px;
+    margin: 40px 600px 5px 23px;
+    width: max-content;
 }
