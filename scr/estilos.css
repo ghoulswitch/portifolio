@@ -1,71 +1,11 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(-87deg, #F3C9B1, #B793C9, #754FA9); /*ajeitar a direção do gradiente*/
+    background-image: url(../media/fundo.JPG);
 }
 
-nav#dados-pessoais {
-    background-color: #ffffff54;
-    margin: 8px 900px 0 9px;
-    height: 568px;
-    border-radius: 12px;
-    position: absolute;
-}
-
-img.diemilly_foto {
-    width: 203px;
-    /*height: 295px;*/
-    margin: 13px 0 0 117px;
-
-    /* foto_elipse_figma */
-
-    /*position: absolute;
-    width: 303px;
-    height: 295px;
-    left: 65px;
-    top: 25px;*/
-
-}
-
-h1.nome-idade {
-    font-family: "Roboto", sans-serif;
-    color: #121f35;
-    font-weight: 500;
-    font-style: normal;
-    margin: 12px 170px 0 178px;
-}
-
-h2.cidade-estado-pais {
-    font-family: "gill-sans-nova", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #213762;
-    margin: 3px 0 0 105px;
-
-}
-
-p.breve-bibliografia {
-    font-family: "gill-sans-nova", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #213762;
-    margin: 40px 30px 129px 30px;
-}
-
-nav#projetos {
-    background-color: #ffffff54;
-    height: 568px;
-    border-radius: 12px;
-    margin: 8px 25px 0 480px;
-    position: absolute;
-}
-
-h1.ultimos-projetos-titulo {
-    font-family: "Roboto", sans-serif;
-    color: #1a2c4d;
-    font-weight: 500;
-    font-size: 32px;
-    font-style: medium;
-    margin: 40px 600px 5px 23px;
-    width: max-content;
+.polaroid-template {
+    width: 400px;
+    margin: 68 0 0 69;
+    transform: rotate(-9deg);
 }
