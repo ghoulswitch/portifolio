@@ -14,9 +14,11 @@ body {
     --fonte-cursiva: 'cursiva';
 }
 
+/* PRIMEIRA VIEWPORT */
+
 /* POLAROID */
 
-.elementos-polaroid .fita-branca {
+#polaroid .fita-branca {
     width: 300px;
     margin: -60px 0 0 190px;
     transform: rotate(20deg);
@@ -39,143 +41,239 @@ body {
     position: static;
 }
 
-/*.polaroid-texto {
-    font-family: var(--fonte-cursiva);
-    font-weight: 570;
-}*/
+.polaroid-texto {
+    font-family: "Playwrite AU SA", serif;
+    margin: -90px 0 0 150px;
+    z-index: 3;
+    position: absolute;    
+    transform: rotate(-9deg);
+}
 
-/* ELEMENTOS/DESENHOS */
-
-.elementos-folha .estrela-rosa {
+#primeira-viweport 
+.uma-estrela-rosa { /* não passa do polaroid??? */
     width: 100px;
-    margin:-100px 0 0 50px;
+    margin: 10px 0 0 -27px;
     position: absolute;
     z-index: 3;
 }
 
 .duas-estrelas-rosas {
     width: 170px;
-    margin: -558px 0 0 340px;
+    margin: -30px 0 0 -270px;
     position: absolute;
     transform: rotate(-25deg);
 }
 
 .desenho-nuvem {
     width: 100px;
-    margin: -490px 0 0 0;
+    margin: 20px 0 0 -600px;
     position: absolute;
 }
 
 .boneco-de-neve {
     width: 90px;
-    margin: -5px 0 0 -15px;
+    margin: 500px 0 0 -605px;
     position: absolute;
 }
 
-.letreiro-principal .letra-p {
-    margin: -370px 0 0 600px;
+.textinho {
+    
+    font-size: 12px;
+    font-family: "Lexend Zetta", serif;
+    margin: 0 0 0 400px;
+}
+
+/* Letreiro Principal */
+
+.letreiro-principal-portifolio .letra-p {
+    margin: -388px 0 0 600px;
     position: absolute;
 }
 
-.letreiro-principal .letra-o {
-    margin: -370px 0 0 666px;
+.letreiro-principal-portifolio .letra-o {
+    margin: -390px 0 0 666px;
     position: absolute;
 }
 
-.letreiro-principal .letra-r {
-    margin: -370px 0 0 730px;
+.letreiro-principal-portifolio .letra-r {
+    margin: -390px 0 0 730px;
     position: absolute;
 }
 
-.letreiro-principal .letra-t {
-    margin: -370px 0 0 783px;
+.letreiro-principal-portifolio .letra-t {
+    margin: -393px 0 0 783px;
     position: absolute;
 }
 
-.letreiro-principal .letra-i {
-    margin: -370px 0 0 843px;
+.letreiro-principal-portifolio .letra-i {
+    margin: -390px 0 0 843px;
     position: absolute;
 }
 
-.letreiro-principal .letra-f {
-    margin: -370px 0 0 890px;
+.letreiro-principal-portifolio .letra-o-dois {
+    margin: -390px 0 0 1120px;
     position: absolute;
 }
 
-.letreiro-principal .letra-o-acentuado {
-    margin: -370px 0 0 950px;
+.letreiro-principal-portifolio .letra-f {
+    margin: -390px 0 0 890px;
     position: absolute;
 }
 
-/* LETREIRO PRINCIPAL */
-
-.letreiro-principal .letra-l {
-    margin: -370px 0 0 1025px;
+.letreiro-principal-portifolio .letra-o-acentuado {
+    margin: -390px 0 0 950px;
     position: absolute;
 }
 
-.letra-i-dois {
-    margin: -370px 0 0 1075px;
+.letreiro-principal-portifolio .letra-l {
+    margin: -390px 0 0 1025px;
     position: absolute;
 }
 
-.letra-o-dois {
-    margin: -370px 0 0 1120px;
+.letreiro-principal-portifolio .letra-i-dois {
+    margin: -390px 0 0 1075px;
     position: absolute;
 }
 
-.letra-d {
-    margin: -270px 0 0 650px;
+
+
+.letreiro-principal-da-milly .letra-d {
+    margin: -300px 0 0 650px;
     position: absolute;
 }
 
-.letra-a {
-    margin: -270px 0 0 705px;
+.letreiro-principal-da-milly .letra-a {
+    margin: -300px 0 0 705px;
     position: absolute;
 }
 
-.letra-m-maiusculo {
-    margin: -270px 0 0 817px;
+.letreiro-principal-da-milly .letra-m-maiusculo {
+    margin: -298px 0 0 817px;
     position: absolute;
 }
 
-.letra-i-tres {
-    margin: -270px 0 0 913px;
+.letreiro-principal-da-milly .letra-i-tres {
+    margin: -300px 0 0 913px;
     position: absolute;
 }
 
-.letra-l-dois {
-    margin: -270px 0 0 960px;
+.letreiro-principal-da-milly .letra-l-dois {
+    margin: -300px 0 0 960px;
     position: absolute;
 }
 
-.letra-l-tres{
-    margin: -270px 0 0 1000px;
+.letreiro-principal-da-milly .letra-l-tres{
+    margin: -300px 0 0 1000px;
     position: absolute;
 }
 
-.letra-y {
-    margin: -285px 0 0 1030px;
+.letreiro-principal-da-milly .letra-y {
+    margin: -320px 0 0 1030px;
     position: absolute;
 }
 
 .exclamacao {
     width: 200px;
-    margin: -480px 0 0 1120px;
+    margin: -500px 0 0 1120px;
     position: absolute;
 }
 
 .patinhas {
     width: 130px;
-    margin: -345px 0 0 535px;
+    margin: -368px 0 0 535px;
     position: absolute;
     transform: rotate(-30deg);
 }
 
 .risco {
     width: 400px;
-    margin: -365px 0 0 735px;
+    margin: -410px 0 0 735px;
     position: absolute;
 }
 
 
+
+
+
+
+
+
+/* SEGUNDA VIEWPORT */
+
+.letra-u-maiusculo-acentuado {
+    margin: 38px 0 0 30px;
+}
+
+.p-minusculo {
+    position: absolute;
+    margin: 120px 0 0 -400px;
+}
+
+.letra-r {
+    position: absolute;
+    margin: 120px 0 0 -330px;
+}
+
+.quarto-o {
+    position: absolute;
+    margin: 120px 0 0 -286px;
+}
+
+.segundo-j {
+    position: absolute;
+    margin: 120px 0 0 -239px;
+}
+
+.letra-e {
+    position: absolute;
+    margin: 120px 0 0 -190px;
+}
+
+.terceiro-t {
+    position: absolute;
+    margin: 120px 0 0 -130px;
+}
+
+.quinto-o {
+    position: absolute;
+    margin: 120px 0 0 -86px;
+}
+
+.segundo-s {
+    position: absolute;
+    margin: 120px 0 0 -30px;
+}
+
+.estrela-preta {
+    width: 70px;
+    position: absolute;
+    margin: 70px 0 0 -15px;
+    transform: rotate(-10deg);
+}
+
+.segunda-estrela-preta {
+    width: 70px;
+    position: absolute;
+    margin: 165px 0 0 -450px;
+    transform: rotate(10deg);
+}
+
+.folha-info {
+    width: 610px;
+    position: absolute;
+    margin: -150px 0 0 700px;
+}
+
+/* Projetos */
+
+.logo-info {
+    position: absolute;
+    width: 150px;
+    margin: 120px 0 0 30px;
+}
+
+.logo-dquintal {
+    position: absolute;
+    width: 200px;
+    margin: 97px 0 0 180px;
+}
