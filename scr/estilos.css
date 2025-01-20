@@ -15,10 +15,10 @@ body {
 }
 
 /* PRIMEIRA VIEWPORT */
-
 /* POLAROID */
 
-#polaroid .fita-branca {
+#polaroid 
+.fita-branca {
     width: 300px;
     margin: -60px 0 0 190px;
     transform: rotate(20deg);
@@ -258,22 +258,90 @@ body {
     transform: rotate(10deg);
 }
 
-.folha-info {
-    width: 610px;
-    position: absolute;
-    margin: -150px 0 0 700px;
-}
-
 /* Projetos */
 
 .logo-info {
     position: absolute;
     width: 150px;
-    margin: 120px 0 0 30px;
+    margin: 140px 0 0 30px;
 }
 
 .logo-dquintal {
     position: absolute;
     width: 200px;
-    margin: 97px 0 0 180px;
+    margin: 118px 0 0 180px;
+}
+
+
+/* TERCEIRA VIEWPORT */
+.terceiro-letreiro .letra-E {
+    margin: 400px 0 0 45px;
+}
+
+.terceiro-letreiro .segundo-d {
+
+}
+
+.terceiro-letreiro .letra-u {
+
+}
+
+.terceiro-letreiro .letra-c {
+
+}
+
+.terceiro-letreiro .segundo-a {
+
+}
+
+.terceiro-letreiro .cedilha {
+
+}
+
+.terceiro-letreiro .letra-a-acentuado {
+
+}
+
+.terceiro-letreiro .sexto-o {
+
+}
+
+.terceiro-letreiro-estrela-preta {
+    width: 60px;
+    margin: 0 0 0 -450px;
+    transform: rotate(-12deg);
+}
+
+.terceiro-letreiro-estrela-preta-dois {
+    width: 50px;
+    margin: 0 0 0 370px;
+    transform: rotate(10deg);
+}
+
+.terceiro-letreiro-estrela-preta-tres {
+    width: 50px;
+    margin: 0 0 45px -40px;
+    transform: rotate(-12deg);
+}
+
+.paragrafos {
+    margin: 0 0 0 32px;
+    font-family: "Lexend Zetta", serif;
+}
+
+.ifam {
+    margin: 50px 0 0 0;
+}
+
+.ccaa {
+    margin: 50px 0 0 0;
+}
+
+.uniasselvi {
+    margin: 30px 0 0 0;
+}
+
+.icon-email {
+    width: 35px;
+    margin: 53px 0 0 30px;
 }
