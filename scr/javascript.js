@@ -1,9 +1,9 @@
 function abrirModalLogoInfo() {
-    document.getElementById('modal-logo-info').style.display = 'flex' 
+    document.getElementById('modal-logo-info').classList.add('show');
 }
 
 function fecharModalLogoInfo() {
-    document.getElementById('modal-logo-info').style.display = 'none'
+    document.getElementById('modal-logo-info').classList.remove('show');
 }
 
 // para fechar o modal quando clicar fora dele

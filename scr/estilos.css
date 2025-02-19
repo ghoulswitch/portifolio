@@ -284,7 +284,6 @@ body {
     display: none; 
     position: fixed;
     justify-content: center; 
-    display: flex; 
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
 
@@ -294,6 +293,11 @@ body {
     height: 100%;
     align-items: center; /* centraliza o modal */
 }
+
+.modal-logo-info.show {
+    display: flex;
+}
+
 .conteudo-modal-info {
     background-image: url(../media/livro.png);
     background-size: cover; 
