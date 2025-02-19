@@ -72,6 +72,7 @@
                 We walk the long, drawn-out line that cuts across the vast land <br>
                 Because the world carved us on that line </p>
 
+            </div>
         </div>
 
         <div class="segunda-viweport">
@@ -97,13 +98,31 @@
     
                 <img src="./media/estrela-preta.png" class="estrela-preta">
                 <img src="./media/estrela-preta.png" class="segunda-estrela-preta">
+            </div>
     
                 <div class="projetos">
-                    <img src="./media/logo-info.png" class="logo-info">
-                    <img src="./media/logo-dquintal.png" class="logo-dquintal">
+                    <img src="./media/logo-info.png" class="logo-info" onclick="abrirModalLogoInfo()">
+                    <img src="./media/logo-dquintal.png" class="logo-dquintal" onclick="abrirModalLogoQuintal()">
                 </div>
 
-            </div>
+                <div class="modal-logo-info" id="modal-logo-info">
+
+                    <div class="conteudo-modal-info">
+                        <button class="fecharModalLogoInfoButton" onclick="fecharModalLogoInfo()"> X </button>
+
+                        <img src="./media/logo-info.png" class="modal-logo-info-img">
+
+                        <div class="modal-info-container-desc">
+                            <span class="info-desc"> Logotipo para semana de jogos do Instituto Federal do Amazonas -  Curso de Informática </span>
+                        </div>
+
+                        <div class="modal-info-elementos-container">
+                            <span class="info-elementos-titulo"> Elementos usados! </span>
+                        </div>
+
+                    </div>
+
+                </div>
 
         </div>
 
@@ -159,6 +178,8 @@
         </div>
 
     </main>
+
+    <script src="./scr/javascript.js"></script>
 
 </body>
 </html>
