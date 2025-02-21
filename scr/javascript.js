@@ -27,3 +27,10 @@ window.onclick = function(event) {
         fecharModalLogoQuintal();
     }
 }
+
+
+
+
+
+
+

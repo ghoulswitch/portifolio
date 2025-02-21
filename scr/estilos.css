@@ -298,7 +298,8 @@ body {
     display: flex;
 }
 
-.modal-info-conteudo {
+.modal-info-primeira-pagina {
+    /* background-color: #615d5d; */
     background-image: url(../media/livro.png);
     background-size: cover; 
     width: 750px;
@@ -355,9 +356,16 @@ body {
 }
 
 .modal-info-segunda-pagina {
-    width: 315px;
-    margin: -156px 0 0 405px;
+    /* background-color: rgba(245, 245, 220, 0.349); */
+    width: 355px;
+    height: 478px;
+    margin: 20px 0 0 -395px;
     font-family: var(--fonte-cursiva);
+}
+
+.modal-info-desc02 {
+    display: flex;
+    margin: 23px 0 0 12px;
     rotate: -1.3deg;
 }
 
