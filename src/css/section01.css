@@ -17,6 +17,9 @@ body {
 
 /*  */
 
+.no-scroll {
+    overflow: hidden;
+}
 
 .section01 {
     display: flex;
