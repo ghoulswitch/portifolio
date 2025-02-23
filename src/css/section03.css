@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cursiva';
+    src: url('../fontes/TomatoesCake-RpOAl.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-cursiva: 'cursiva';
+}
+
+
+/*  */
+
+.section03 {
+    display: flex; 
+    position: relative;
+    /* background-color: rgba(0, 26, 255, 0.349); */
+    height: 580px;
+}
+
+/* ELEMENTOS */
+
+.elementos-section03
+.estrela-preta01 {
+    width: 63px;
+    display: flex;
+    position: absolute;
+    margin: 34px 0 0 540px;
+}
+
+.elementos-section03
+.estrela-preta02 {
+    width: 63px;
+    display: flex;
+    position: absolute;
+    margin: 97px 0 0 540px;
+}
+
+.elementos-section03
+.estrela-preta03 {
+    width: 70px;
+    display: flex;
+    position: absolute;
+    margin: 6px 0 0 0;
+}
+
+/* LETREIRO 03 */
+
+.container-letreiro-section03 {
+    /* background-color: rgba(215, 250, 236, 0.596); */
+    width: 550px;
+    height: 120px;
+    margin: 20px 0 0 30px;
+    padding: 5px;
+}
+
+.container-letreiro-section03 img {
+    margin: 10px 0 0 10px;
+}
+
+/* EDUCAÇÃO */
+
+.educacao {
+    /* background-color: rgba(255, 76, 160, 0.425); */
+    display: flex;
+    position: absolute;
+    margin: 190px 0 0 30px;
+    font-family: "Lexend Zetta", serif;
+    width: 720px;
+    padding: 7px;
+}
+
+.uniasselvi {
+    /* background-color: rgba(235, 235, 26, 0.493); */
+    display: flex;
+    position: absolute;
+}
+
+.ifam {
+    /* background-color: rgba(10, 187, 10, 0.397); */
+    margin: 90px 0 0 0;
+    display: flex;
+    position: absolute;
+}
+
+.ccaa {
+    /* background-color: rgba(255, 0, 0, 0.39); */
+    margin: 200px 0 0 0;
+}
+
+/* SOCIAIS */
+
+.sociais {
+    /* background-color: rgba(210, 105, 30, 0.603); */
+    display: flex;
+    position: absolute;
+    margin: 500px 0 0 13px;
+    padding: 5px;
+    width: 200px;
+    height: 63px;
+}
+
+.container-sociais {
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.icon-email {    
+    width: 24px; 
+    height: 24px;
+    position: relative;
+    transform: scale(1.7);
+    fill: none;
+    stroke: rgb(97, 93, 93);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    margin-top: 12px;
+}
+
+.icon-linkedin {
+    width: 43px; 
+    height: 43px;
+    margin-top: 3px;
+    cursor: pointer;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.icon-linkedin svg path {
+    fill: #615d5d;
+}
+
+.icon-github {
+    width: 43px; 
+    height: 43px;
+    transform: scale(1.6);
+    cursor: pointer;
+    margin-top: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ESPECIALIDADES */
+
+.especialidades {
+    /* background-color: #615d5d7e; */
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    width: 540px;
+    height: 500px;
+    margin: 80px 0 0 170px;
+}
+
+.html-logo {
+    display: flex;
+    position: absolute;
+    width: 175px;
+    rotate: 10deg;
+    margin: 100px 0 0 23px;
+}
+
+.css-logo {
+    width: 230px;
+    rotate: -07deg;
+    margin: 150px 0 0 90px;
+    display: flex;
+    position: absolute;
+}
+
+.js-logo {
+    width: 130px;
+    rotate: -04deg;
+    margin: 220px 0 0 250px;
+    display: flex;
+    position: absolute;
+}
+
+.nodejs-logo {
+    width: 105px;
+    rotate: 04deg;
+    margin: 100px 0 0 300px;
+    display: flex;
+    position: absolute;
+}

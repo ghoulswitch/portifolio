@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cursiva';
+    src: url('../fontes/TomatoesCake-RpOAl.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-cursiva: 'cursiva';
+}
+
+
+/*  */
+
+.section02 {
+    display: flex;
+    position: relative;
+    /* background-color: rgba(0, 255, 64, 0.349); */
+    height: 550px;
+}
+
+/* ELEMENTOS */
+
+.estrela-preta {
+    display: flex;
+    position: absolute;
+    width: 70px;
+    margin: 90px 0 0 17px;
+}
+
+.estrela-preta02 {
+    display: flex;
+    position: absolute;
+    width: 60px;
+    margin: 120px 0 0 480px;
+    rotate: -12deg;
+}
+
+/* LETREIRO */
+
+.container-letreiro {
+    /* background-color: rgba(96, 96, 253, 0.39); */
+    width: 580px;
+    margin: 29px 0 0 -10px;
+    padding: 10px;
+    height: 240px;
+}
+
+.primeira-linha-section02 {
+    /* background-color: rgba(237, 100, 184, 0.459); */
+    margin: 0 0 0 50px;
+    width: 460px;
+    padding: 5px;
+}
+
+.segunda-linha-section02 {
+    /* background-color: rgba(189, 79, 253, 0.548); */
+    width: 480px;
+    padding: 5px;
+    margin: -50px 0 0 34px;
+}
+
+/* PROJETOS */
+
+.container-projetos {
+    /* background-color: rgba(64, 172, 172, 0.466); */
+    margin: 260px 0 0 30px;
+    display: flex;
+    position: absolute;
+    width: 1260px;
+    height: 290px;
+}
+
+.projeto-pockedex img {
+    width: 138px;
+}
+
+.logo-pockedex {
+    position: absolute;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease
+}
+
+.logo-pockedex:hover {
+    transform: scale(1.1);
+}

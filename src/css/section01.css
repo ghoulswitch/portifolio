@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(/media/fundo.JPG);
+}
+
+@font-face {
+    font-family: 'cursiva';
+    src: url('../fontes/TomatoesCake-RpOAl.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-cursiva: 'cursiva';
+}
+
+
+/*  */
+
+
+.section01 {
+    display: flex;
+    position: relative;
+    /* background-color: rgba(0, 0, 255, 0.349); */
+    height: 600px;
+}
+
+/* ELEMENTOS */
+
+.elementos-section01 {
+    z-index: 20;
+}
+
+.fita-branca {
+    width: 332px;
+    position: absolute;
+    margin: -60px 0 0 190px;
+    rotate: 20deg;
+}
+
+.nuvem {
+    position: absolute;
+    width: 100px;
+    margin: 25px 0 0 13px;
+}
+
+.boneco-de-neve {
+    position: absolute;
+    margin: 450px 0 0 0;
+}
+
+.estrelas-rosas {
+    position: absolute;
+    width: 150px;
+    margin: -13px 0 0 367px;
+    rotate: -30deg;
+}
+
+.estrela-rosa {
+    position: absolute;
+    margin: 300px 0 0 473px;
+} 
+
+.paws {
+    display: flex;
+    position: absolute;
+    width: 120px;
+    margin: 190px 0 0 590px;
+    rotate: -35deg;
+}
+
+.exclamacao {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    margin: 60px 0 0 1120px;
+}
+
+.risco {
+    display: flex;
+    position: absolute;
+    width: 310px;
+    margin: 190px 0 0 800px;
+}
+
+/* POLAROID */
+
+.container-polaroid {
+    /* background-color: rgba(128, 0, 128, 0.541); */
+    width: 376px;
+    height: 440px;
+    margin: 80px 0 0 73px;
+    rotate: -10deg;
+    display: flex;
+    position: absolute;
+}
+
+.polaroid-txt {
+    position: absolute;
+    font-family: "Playwrite AU SA", serif;
+    margin: 370px 0 0 70px;
+    z-index: 20;
+}
+
+.img-eu {
+    height: 307px;
+    margin: 40px 0 0 42px;
+    z-index: 10;
+}
+
+.polaroid {
+    height: 450px;
+    margin: 0 0 0 0;
+    display: flex;
+    position: fixed;
+}
+
+/* LETREIRO */
+
+.container-letreiro-principal {
+    /* background-color: rgba(255, 192, 203, 0.514); */
+    width: 612px;
+    height: 240px;
+    margin: 150px 0 0 620px;
+    position: absolute;
+}
+
+.primeira-linha {
+    /* background-color: rgba(255, 77, 106, 0.356); */
+    width: 590px;
+    margin: 10px 0 0 10px;
+    position: absolute;
+}
+
+.primeira-linha
+.p {
+    margin-left: 17px;
+}
+
+.segunda-linha {
+    /* background-color: rgba(255, 77, 106, 0.356); */
+    width: 452px;
+    margin: 100px 0 0 70px;
+    display: flex;
+}
+
+/* .da {
+    background-color: rgba(255, 99, 71, 0.459);
+} */
+
+.milly {
+    /* background-color: rgba(255, 92, 80, 0.637); */
+    margin-left: 20px;
+}
+
+/* PARAGRAFO */
+
+.mais-infos {
+    /* background-color: rgba(209, 142, 65, 0.425); */
+    width: 632px;
+    height: 110px;
+    margin: 510px 0 0 560px;
+    padding: 10px;
+    display: flex;
+}
+
+.mais-infos p {
+    /* background-color: rgba(255, 228, 196, 0.685); */
+    font-family: "Lexend Zetta", serif;
+    margin: auto;
+    height: auto;
+    font-size: 11.5px;
+}

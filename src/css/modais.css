@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cursiva';
+    src: url('../../fontes/TomatoesCake-RpOAl.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-cursiva: 'cursiva';
+}
+
+/* Modal-info */
+
+.modal-logo-info {
+    display: none; 
+    position: fixed;
+    justify-content: center; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+    top: 0; 
+    left: 0; /*significa que o modal ai ocupar a tela inteira por causa do fixed */
+    width: 100%; 
+    height: 100%;
+    align-items: center; /* centraliza o modal */
+}
+
+.modal-logo-info.show {
+    display: flex;
+}
+
+.modal-info-primeira-pagina {
+    /* background-color: #615d5d; */
+    background-image: url(../../media/livro.png);
+    background-size: cover; 
+    width: 750px;
+    height: 500px;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fecharModalLogoInfoButton {
+    position: absolute; 
+    cursor: pointer;
+    margin: 40px 0 0 30px;
+    font-family: var(--fonte-cursiva);
+    font-size: 25px;
+    border: none;
+    background: none;
+}
+
+.modal-info-titulo {
+    font-family: var(--fonte-cursiva);
+    display: flex;
+    position: relative;
+    bottom: -48px;
+    left: 130px;
+    rotate: 1deg;
+}
+
+.modal-logo-info-img {
+    width: 270px;
+    margin: 63px 0 0 70px;
+    rotate: -1deg;
+    cursor: pointer;
+}
+
+.modal-info-container-desc {
+    position: absolute;
+    width: 300px;
+    margin: 20px 0 0 48px;
+    font-family: var(--fonte-cursiva);
+}
+
+.modal-info-desc {
+    text-align: center;
+    margin-top: 20px;
+    rotate: 1.3deg;
+}
+
+.seta01 {
+    width: 74px;
+    margin: 0 0 0 306px;
+    rotate: 100deg;
+    display: flex;
+    position: absolute;
+}
+
+.modal-info-devemdobro-img {
+    width: 180px;
+    margin: 08px 0 0 38px;
+    position: absolute;
+    rotate: 1deg;
+}
+
+.modal-info-segunda-pagina {
+    /* background-color: rgba(245, 245, 220, 0.349); */
+    width: 355px;
+    height: 478px;
+    margin: 20px 0 0 -395px;
+    font-family: var(--fonte-cursiva);
+}
+
+.modal-info-desc02 {
+    display: flex;
+    margin: 42px 0 0 40px;
+    rotate: -1.3deg;
+}
+
+/* - */
