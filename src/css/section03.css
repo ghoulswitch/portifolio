@@ -170,7 +170,7 @@
 .css-logo {
     width: 230px;
     rotate: -07deg;
-    margin: 150px 0 0 90px;
+    margin: 150px 0 0 100px;
     display: flex;
     position: absolute;
 }
@@ -189,4 +189,18 @@
     margin: 100px 0 0 300px;
     display: flex;
     position: absolute;
+}
+
+.figma-logo {
+    display: flex;
+    position: absolute;
+    width: 95px;
+    margin: 60px 0 0 190px;
+}
+
+.photoshop-logo {
+    display: flex;
+    position: absolute;
+    width: 120px;
+    margin: 210px 0 0 53px;
 }
