@@ -175,3 +175,27 @@ body {
     font-size: 13.3px;
     letter-spacing: -0.5px;
 }
+
+.mais-infos .html {
+    color: #f7942b;
+}
+
+.mais-infos .css {
+    color: #639ece;
+}
+
+.mais-infos .js {
+    color: #eebb22;
+}
+
+.mais-infos .ui-ux {
+    color: #76669b;
+}
+
+.mais-infos .figma {
+    color: #5fb366;
+}
+
+.mais-infos .photoshop {
+    color: #295F98;
+}
