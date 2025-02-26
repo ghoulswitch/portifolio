@@ -164,13 +164,13 @@
     position: absolute;
     width: 175px;
     rotate: 10deg;
-    margin: 100px 0 0 23px;
+    margin: 110px 0 0 90px;
 }
 
 .css-logo {
     width: 230px;
     rotate: -07deg;
-    margin: 150px 0 0 100px;
+    margin: 180px 0 0 156px;
     display: flex;
     position: absolute;
 }
@@ -178,7 +178,7 @@
 .js-logo {
     width: 130px;
     rotate: -04deg;
-    margin: 220px 0 0 250px;
+    margin: 250px 0 0 310px;
     display: flex;
     position: absolute;
 }
@@ -195,12 +195,12 @@
     display: flex;
     position: absolute;
     width: 95px;
-    margin: 60px 0 0 190px;
+    margin: 90px 0 0 290px;
 }
 
 .photoshop-logo {
     display: flex;
     position: absolute;
     width: 120px;
-    margin: 210px 0 0 53px;
+    margin: 250px 0 0 115px;
 }
