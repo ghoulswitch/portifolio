@@ -72,6 +72,8 @@
     height: 290px;
 }
 
+/* POKEDEVS */
+
 .projeto-pockedex img {
     width: 138px;
 }
@@ -80,9 +82,23 @@
     position: absolute;
     width: 150px;
     cursor: pointer;
-    transition: transform 0.3s ease
+    transition: transform 0.3s ease;
 }
 
 .logo-pockedex:hover {
+    transform: scale(1.1);
+}
+
+/* NETFLIX */
+
+.logo-netflix {
+    position: absolute;
+    cursor: pointer;
+    width: 120px;
+    transition: transform 0.3s ease;
+    margin: 9px 0 0 145px;
+}
+
+.logo-netflix:hover {
     transform: scale(1.1);
 }
